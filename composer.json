@@ -1,0 +1,29 @@
+{
+    "name": "ampeco/omnipay-advam",
+    "description": "Omnipay Advam Plugin",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "omnipay/common": "^3",
+        "ext-soap": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ampeco\\OmnipayAdvam\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexander Alexiev",
+            "email": "alexander.alexiev@ampeco.com"
+        },
+        {
+            "name": "Petko Kostov",
+            "email": "petko.kostov@ampeco.global"
+        },
+        {
+            "name": "Marry Akifova",
+            "email": "merry.akifova@ampeco.global"
+        }
+    ]
+}
