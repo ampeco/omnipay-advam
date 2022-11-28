@@ -6,6 +6,7 @@ use Omnipay\Common\AbstractGateway;
 
 class Gateway extends AbstractGateway
 {
+    use CommonParameters;
 
     public function getName()
     {
